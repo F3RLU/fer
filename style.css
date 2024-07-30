@@ -132,6 +132,12 @@ h3{
     margin-bottom: 2rem;
     color: var(--primario);
 }
+@media (max-whidth: 390px){
+    .navegacion-principal a{
+        display:grid;
+    }
+}
+
 @media (min-width: 768px){
     .contenedor-campos{
         display: grid;
